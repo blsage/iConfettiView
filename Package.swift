@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "ConfettiView",
+    name: "union-confetti",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "ConfettiView",
-            targets: ["ConfettiView"]),
+            name: "UnionConfetti",
+            targets: ["UnionConfetti"]),
     ],
     targets: [
         .target(
-            name: "ConfettiView"),
+            name: "UnionConfetti"),
     ]
 )

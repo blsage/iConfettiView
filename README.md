@@ -1,21 +1,24 @@
-<h1 align="center"> ConfettiView 🎉</p>
-<h3 align="center"> The prettiest SwiftUI-native confetti. </h3>
+<h1 align="center">UnionConfetti 🎉</h1>
+<h3 align="center">The prettiest SwiftUI‑native confetti.</h3>
 <p align="center">
-    <img src="./Resources/example1.gif" alt="CI" />
+    <img src="./Resources/example1.gif" alt="UnionConfetti demo" />
 </p>
 
 <br/>
 
 ## Get Started
 
-1. Install `ConfettiView`
-2. Add `ConfettiView` to your project
+1. Install **UnionConfetti** from Swift Package Manager  
+   `https://github.com/unionst/union-confetti`
+
+2. Drop `ConfettiView` into your view hierarchy
+
 ```swift
 import SwiftUI
-import ConfettiView
+import UnionConfetti
 
 struct ContentView: View {
-    @State var showConfetti = false
+    @State private var showConfetti = false
 
     var body: some View {
         Button("Rain on me") {
@@ -25,8 +28,3 @@ struct ContentView: View {
         .overlay(ConfettiView(isPresented: $showConfetti))
     }
 }
-```
-
-<p align="center">
-    <img src="./Resources/example2.gif" alt="CI" />
-</p>

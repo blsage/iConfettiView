@@ -1,6 +1,6 @@
 //
 //  SafeAreaInsetsKey.swift
-//  ConfettiView
+//  UnionConfetti
 //
 //  Created by Benjamin Sage on 12/15/24.
 //
